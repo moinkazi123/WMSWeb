@@ -11,9 +11,9 @@ ls -la
 
 # Check if the DLL exists
 if [ -f WebApplication2.dll ]; then
-    echo "WebApplication2.dll found"
+    echo "WMSCOREAPI.dll found"
 else
-    echo "WebApplication2.dll not found"
+    echo "WMSCOREAPI.dll not found"
     echo "Searching for DLL:"
     find . -name "*.dll"
 fi
