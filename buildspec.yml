@@ -27,8 +27,6 @@ phases:
       - cp scripts/*.sh ./publish/scripts/
       - echo Uploading build artifacts to S3...
       - aws s3 cp ./publish s3://wmsbucket123/webapplication/ --recursive
-      - echo "Contents of the S3 bucket after upload:"
-      - aws s3 ls s3://wmsbucket123/webapplication/
 artifacts:
   files:
     - '**/*'
