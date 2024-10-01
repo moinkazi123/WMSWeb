@@ -10,7 +10,7 @@ echo "Current directory contents:"
 ls -la
 
 # Check if the DLL exists
-if [ -f WebApplication2.dll ]; then
+if [ -f WMSCOREAPI.dll ]; then
     echo "WMSCOREAPI.dll found"
 else
     echo "WMSCOREAPI.dll not found"
