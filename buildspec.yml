@@ -1,9 +1,12 @@
 version: 0.2
-
 phases:
   install:
+    runtime-versions:
+      dotnet: 8.0
     commands:
       - echo Installing .NET SDK
+      - wget https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm
+      - sudo rpm -Uvh packages-microsoft-prod.rpm
       - sudo yum install -y dotnet-sdk-8.0
   build:
     commands:
