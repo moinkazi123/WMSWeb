@@ -1,0 +1,164 @@
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/appsettings.Development.json
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/appsettings.json
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.exe
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.deps.json
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.runtimeconfig.json
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.pdb
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/Dapper.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/Newtonsoft.Json.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/RestSharp.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/System.Data.SqlClient.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.csproj.AssemblyReference.cache
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.AssemblyInfoInputs.cache
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.AssemblyInfo.cs
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.csproj.CoreCompileInputs.cache
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.MvcApplicationPartsAssemblyInfo.cs
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.MvcApplicationPartsAssemblyInfo.cache
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/staticwebassets.build.json
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/staticwebassets.development.json
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.WMSCOREAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.WMSCOREAPI.props
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WMSCOREAPI.props
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WMSCOREAPI.props
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/staticwebassets.pack.json
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/scopedcss/bundle/WMSCOREAPI.styles.css
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.csproj.Up2Date
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/refint/WMSCOREAPI.dll
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.pdb
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.genruntimeconfig.cache
+D:/WMSMOBILECOREAPI/WMSCOREAPI/obj/Debug/net8.0/ref/WMSCOREAPI.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/appsettings.json
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.exe
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.deps.json
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.runtimeconfig.json
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.pdb
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/Dapper.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/Newtonsoft.Json.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/RestSharp.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/System.Data.SqlClient.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.csproj.AssemblyReference.cache
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.AssemblyInfoInputs.cache
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.AssemblyInfo.cs
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.csproj.CoreCompileInputs.cache
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.WMSCOREAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.WMSCOREAPI.props
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WMSCOREAPI.props
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WMSCOREAPI.props
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/scopedcss/bundle/WMSCOREAPI.styles.css
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.csproj.Up2Date
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/refint/WMSCOREAPI.dll
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.pdb
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.genruntimeconfig.cache
+C:/Users/User/Desktop/COre project/WMSCOREAPI/obj/Debug/net8.0/ref/WMSCOREAPI.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/appsettings.Development.json
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/appsettings.json
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.exe
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.deps.json
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.runtimeconfig.json
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/WMSCOREAPI.pdb
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/Dapper.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/Newtonsoft.Json.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/RestSharp.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/System.Data.SqlClient.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+D:/Manali/WMSCOREAPI/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.csproj.AssemblyReference.cache
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.AssemblyInfoInputs.cache
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.AssemblyInfo.cs
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.csproj.CoreCompileInputs.cache
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.MvcApplicationPartsAssemblyInfo.cs
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.MvcApplicationPartsAssemblyInfo.cache
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/staticwebassets.build.json
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/staticwebassets.development.json
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.WMSCOREAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.WMSCOREAPI.props
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WMSCOREAPI.props
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WMSCOREAPI.props
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/staticwebassets.pack.json
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/scopedcss/bundle/WMSCOREAPI.styles.css
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.csproj.Up2Date
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.dll
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/refint/WMSCOREAPI.dll
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.pdb
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/WMSCOREAPI.genruntimeconfig.cache
+D:/Manali/WMSCOREAPI/obj/Debug/net8.0/ref/WMSCOREAPI.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/appsettings.Development.json
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/appsettings.json
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/WMSCOREAPI
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/WMSCOREAPI.deps.json
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/WMSCOREAPI.runtimeconfig.json
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/WMSCOREAPI.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/WMSCOREAPI.pdb
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/Dapper.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/Newtonsoft.Json.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/RestSharp.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/System.Data.SqlClient.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/ec2-user/WMSCOREAPIMob2/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/WMSCOREAPI.csproj.AssemblyReference.cache
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/WMSCOREAPI.GeneratedMSBuildEditorConfig.editorconfig
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/WMSCOREAPI.AssemblyInfoInputs.cache
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/WMSCOREAPI.AssemblyInfo.cs
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/WMSCOREAPI.csproj.CoreCompileInputs.cache
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/WMSCOREAPI.MvcApplicationPartsAssemblyInfo.cs
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/WMSCOREAPI.MvcApplicationPartsAssemblyInfo.cache
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/staticwebassets.build.json
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/staticwebassets.development.json
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/staticwebassets/msbuild.WMSCOREAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/staticwebassets/msbuild.build.WMSCOREAPI.props
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WMSCOREAPI.props
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WMSCOREAPI.props
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/staticwebassets.pack.json
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/scopedcss/bundle/WMSCOREAPI.styles.css
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/WMSCOREAPI.csproj.CopyComplete
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/WMSCOREAPI.dll
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/refint/WMSCOREAPI.dll
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/WMSCOREAPI.pdb
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/WMSCOREAPI.genruntimeconfig.cache
+/home/ec2-user/WMSCOREAPIMob2/obj/Debug/net8.0/ref/WMSCOREAPI.dll

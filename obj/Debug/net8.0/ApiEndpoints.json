@@ -1,0 +1,3954 @@
+[
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.CommFunAPIController",
+    "Method": "getLoginlist",
+    "RelativePath": "api/CommFunAPI/api/staging/v1/MobileApi/LoginProcess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.CommFunAPIController",
+    "Method": "ScanMobileBarcode",
+    "RelativePath": "api/CommFunAPI/api/staging/v1/MobileApi/ScanMobileBarcode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.scanmobilerequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.CommFunAPIController",
+    "Method": "ScanMobileSerialBarcode",
+    "RelativePath": "api/CommFunAPI/api/staging/v1/MobileApi/ScanMobileSerialBarcode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.ScanMobileSerialBarcode",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.LoginpageController",
+    "Method": "ForgetPassword",
+    "RelativePath": "api/controller/api/staging/v1/loginpage/ForgetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.ForgetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.LoginpageController",
+    "Method": "GetCompanyLogo",
+    "RelativePath": "api/controller/api/staging/v1/loginpage/GetCompanyLogo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.GetlogoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.LoginpageController",
+    "Method": "GetCustLott",
+    "RelativePath": "api/controller/api/staging/v1/loginpage/GetCustLott",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.GetCustLott",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.LoginpageController",
+    "Method": "LoginDetailList",
+    "RelativePath": "api/controller/api/staging/v1/loginpage/GetLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.GetloginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.LoginpageController",
+    "Method": "LogInWithToken",
+    "RelativePath": "api/controller/api/staging/v1/loginpage/LogInWithToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.CloseTokenAuthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.LoginpageController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/controller/api/staging/v1/loginpage/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "BarcodeScanLott",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/BarcodeScanLott",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.BarcodeScanLott",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "CheckGrnID",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/CheckGrnID",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.CheckGrnID",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "forceUpdateGrnQuantity",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/forceUpdateGrnQuantity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.forceUpdateGrnQuantity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "DropDownOption",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/GetDropDownOption",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.GetDropDownOption",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "GetGRNListDetails",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/GetGRNListDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.GetGRNListDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "GetGRNRecevingSKUScan",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/GetGRNRecevingSKUScan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.GetGRNRecevingSKUScan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "GetGRNRScanLog",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/GetGRNScanLog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.GetGRNScanLog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "ReceivingHistory",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/GetReceivingHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.GetReceivingHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "MobSaveGateDetails",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/MobSaveGateDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.SaveGRNTransportDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "SaveGRN",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/SaveGRN",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.SaveGRN",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "GetGRNIDfromPalletSKU",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/ScanPalletandSKUUDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.GetGRNIDfromPalletSKURequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "SkuGrnHistory",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/SkuGrnHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.SkuGrnHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "UpdateGrnLottable",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/UpdateGrnLottable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.UpdateGrnLottable",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "UpdateGrnMobLott",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/UpdateGrnMobLott",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.UpdateGrnMobLott",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "UpdateQtyGrnHistory",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/UpdateQtyGrnHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.UpdateQtyGrnHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "UpdateReceivingQuantity",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/UpdateReceivingProdQuantity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.UpdateReceivingProdQuantity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.GRNController",
+    "Method": "UpdateSkuandpalletLott",
+    "RelativePath": "api/controller/api/staging/v1/MobileApi/UpdateSkuandpalletLott",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.UpdateSkuandpalletLott",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "ScanBarcode",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/BarcodeScan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BPickUpBarcodeScanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.BarcodeScan",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "FinalSave",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/finalSave",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BPickUpFinalSave",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "GetPickUpListVwOrder",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/GetPickUpListVwOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BGetPickUpListVwOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "GetPickUpScanLog",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/GetPickUpScanLog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BGetPickUpScanLogRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "GetPickUpSKUList",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/GetPickUpSkuList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BGetPickUpSKUListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "PickEditCompletedScanLog",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/PickEditCompletedScanLog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BPickEditCompletedScanLog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "PickEditLottableList",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/PickEditLottableList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BPickEditLottableList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "PickEditScanBarcode",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/PickEditScanBarcode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BPickEditScanBarcode",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.BarcodeScan",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "PickEditScanLog",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/PickEditScanLog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BPickEditScanLog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "PickUpEditList",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/PickUpEditList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BGetPickUpEditListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "GetParameterList",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/PickUpList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BGetPickUpListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "SavePickUpEditDetails",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/SavePickUpEditDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BSavePickUpEditDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "SkuWisePickUpSKUList",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/SkuWisePickUpSKUList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BSkuWisePickUpSKUList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "UpdatePickUp",
+    "RelativePath": "api/controller/api/staging/v1/PickUp/updatePickup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BUpdatePickUpRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PickupController",
+    "Method": "PickUpLottable",
+    "RelativePath": "api/controller/LottableList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Models.V1.Request.PickUp\u002BPickUpLottableRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.CycleCountController",
+    "Method": "CycleCountPlanDetaillist",
+    "RelativePath": "api/CycleCount/api/staging/v1/MobileApi/CycleCount/CycleCountPlanDetaillist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.CycleCountPlanSkulist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.CycleCountController",
+    "Method": "CycleCountPlanlist",
+    "RelativePath": "api/CycleCount/api/staging/v1/MobileApi/CycleCount/CycleCountPlanlist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.CycleCountPlanlistRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.CycleCountController",
+    "Method": "Updateplan",
+    "RelativePath": "api/CycleCount/api/staging/v1/MobileApi/CycleCount/CycleCountUpdateplan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Updateplanrequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.CycleCountController",
+    "Method": "CycleCountUpdateQty",
+    "RelativePath": "api/CycleCount/api/staging/v1/MobileApi/CycleCount/CycleCountUpdateQTY",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.CycleCountUpdateqnt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.CycleCountController",
+    "Method": "CycleCountUpdateQntCheck",
+    "RelativePath": "api/CycleCount/api/staging/v1/MobileApi/CycleCount/CycleCountUpdateQTYCheck",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.UpdateQntCheck",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.CycleCountController",
+    "Method": "lottablelist",
+    "RelativePath": "api/CycleCount/api/staging/v1/MobileApi/CycleCount/lottablelist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.lottablelistrequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.CycleCountController",
+    "Method": "PalletCheck",
+    "RelativePath": "api/CycleCount/api/staging/v1/MobileApi/CycleCount/PalletCheck",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.palletCheckrequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.CycleCountController",
+    "Method": "SearchLottList",
+    "RelativePath": "api/CycleCount/api/staging/v1/MobileApi/CycleCount/SearchLottList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.SearchLottList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.DispatchController",
+    "Method": "GetDispatDetail",
+    "RelativePath": "api/Dispatch/api/staging/v1/Dispatch/dispatchDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Dispatch\u002BGetDispatchDetailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.DispatchController",
+    "Method": "Dispatchmobvalidate",
+    "RelativePath": "api/Dispatch/api/staging/v1/Dispatch/Dispatchmobvalidate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Dispatch\u002BDispatchmobvalidate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.DispatchController",
+    "Method": "GetCarrierDetail",
+    "RelativePath": "api/Dispatch/api/staging/v1/Dispatch/getCarrierList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Dispatch\u002BCarrierListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.DispatchController",
+    "Method": "GetDispatchList",
+    "RelativePath": "api/Dispatch/api/staging/v1/Dispatch/GetDispatchList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Dispatch\u002BGetDispatchListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.DispatchController",
+    "Method": "GetDispatchmobScan",
+    "RelativePath": "api/Dispatch/api/staging/v1/Dispatch/GetDispatchmobScan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Dispatch\u002BGetDispatchmobScan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.DispatchController",
+    "Method": "GetDispatchmobSkuSave",
+    "RelativePath": "api/Dispatch/api/staging/v1/Dispatch/GetDispatchmobSkuSave",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Dispatch\u002BGetDispatchmobSkuSave",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.DispatchController",
+    "Method": "GetDispatchmobSkuScan",
+    "RelativePath": "api/Dispatch/api/staging/v1/Dispatch/GetDispatchmobSkuScan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Dispatch\u002BGetDispatchmobSkuScan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.DispatchController",
+    "Method": "GetDispatchVwOrder",
+    "RelativePath": "api/Dispatch/api/staging/v1/Dispatch/GetDispatchVwOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Dispatch\u002BGetDispatchOrderViewRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.DispatchController",
+    "Method": "SaveDetails",
+    "RelativePath": "api/Dispatch/api/staging/v1/Dispatch/saveDispatchbyso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.Dispatch\u002BSaveDispatchBySORequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.DispatchController",
+    "Method": "UpdateQty",
+    "RelativePath": "api/Dispatch/api/staging/v1/Dispatch/updateQuantity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Dispatch\u002BUpdateQtyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "GetQCReasoncode",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/GetQCReasoncode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002BSaveQCDetailRequest\u002BQCReasonRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "GetQCsaveDetailScan",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/GetQCsaveDetailScan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002BSaveQCDetailRequest\u002BGetQCsaveDetailScanlog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "MobScaningPalletandProduct",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/InboundGetBarcodeScan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002BSaveQCDetailRequest\u002BQCScanBarcodeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "InboundQCBarcodeScan",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/InboundQCBarcodeScan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002BSaveQCDetailRequest\u002BInboundQCBarcodeScan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "InboundSaveMobQCDetail",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/InboundSaveMobQCDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002BSaveQCDetailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "MobDeleteQCRecord",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/MobDeleteQCRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002Bgrnidreq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "GetGRNDetail",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/MobGetQCHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002BInboundQCHistroyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "getQCID",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/MobgetQCID",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002Bgrnidreq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "MobGetQCSKUHistory",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/MobGetQCSKUHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002BSaveQCDetailRequest\u002BMobGetQCSKUHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "MobQCScanLog",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/MobQCScanLog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002BSaveQCDetailRequest\u002BQCgetScanLogRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "GetQclist",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/QCList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002BQCDetailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InboundQCController",
+    "Method": "SavefinalQC",
+    "RelativePath": "api/InboundQC/api/staging/v1/MobileApi/SavefinalQCDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.InboundQC\u002BSaveQCDetailRequest\u002BSaveFinalQCStatus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InternalTransferController",
+    "Method": "CheckIsPallet",
+    "RelativePath": "api/InternalTransfer/api/staging/v1/InternalTransfer/CheckIsPallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.CheckIsPalletRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InternalTransferController",
+    "Method": "PalletTransfer",
+    "RelativePath": "api/InternalTransfer/api/staging/v1/InternalTransfer/PalletTransfer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.PalletTransferRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.BarcodeScan",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InternalTransferController",
+    "Method": "SaveTransfer",
+    "RelativePath": "api/InternalTransfer/api/staging/v1/InternalTransfer/SaveInternalTransfer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.SaveInternalTransferDetailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InternalTransferController",
+    "Method": "ScanBarcode",
+    "RelativePath": "api/InternalTransfer/api/staging/v1/InternalTransfer/ScanBarcode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.ScanBarcoderequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.BarcodeScan",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.InternalTransferController",
+    "Method": "UOMLOttablelist",
+    "RelativePath": "api/InternalTransfer/api/staging/v1/InternalTransfer/UOMLottable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.UOMLottablelistrequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobileProdIssueController",
+    "Method": "GetMobileProdIssuelist",
+    "RelativePath": "api/MobileProdIssue/api/staging/v1/MobileProdIssue/GetMobileProdIssuelist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetMobileProdIssuelistRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobileProdIssueController",
+    "Method": "GetMobProdIssuelottablelist",
+    "RelativePath": "api/MobileProdIssue/api/staging/v1/MobileProdIssue/GetMobProdIssuelottablelist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetMobProdIssuelottablelistRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobileProdIssueController",
+    "Method": "MobilePrdIssueSave",
+    "RelativePath": "api/MobileProdIssue/api/staging/v1/MobileProdIssue/MobilePrdIssueSave",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.MobilePrdIssueSaveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobileProdIssueController",
+    "Method": "MobilePrdIssueScanBarcode",
+    "RelativePath": "api/MobileProdIssue/api/staging/v1/MobileProdIssue/MobilePrdIssueScanBarcode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.MobilePrdIssueScanBarcodeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "GetLocListNoQc",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/GetLocListNoQc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetLocListNoQc",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "GetPutinmobileList",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/getmobilePutinList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetPutInSKUListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "GetPalletLocationDetails",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/getmobPalletAndLoctionDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetPalletLocationDetailsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "GetSkuLocationDetails",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/getmobSKUAndLoctionDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetSkuLocationDetailsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "GetPutAwayHistory",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/getPutAwayHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetPutAwayHistoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "GetPutInLastScanRequest",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/getPutInScan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetPutInLastScanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "getPutInScanYes",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/getPutInScanYes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.getPutInScanYes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "GetSuggestedLocationBySKU",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/getSuggestedLocationBySKU",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetSuggestedLocationBySKURequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "HistoryPutinNoQC",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/HistoryPutinNoQC",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.HistoryPutinNoQC",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "HistoryPutinWithQC",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/HistoryPutinWithQC",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.HistoryPutinWithQC",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "MobGetPutAwaySKUHistory",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/MobGetPutAwaySKUHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.MobGetPutAwaySKUHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "MobPutAwayHistoryNoQCNoPlt",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/MobPutAwayHistoryNoQCNoPlt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.MobPutAwayHistoryNoQCNoPlt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "PutAwayHistoryWithOutQcWithPlt",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/PutAwayHistoryWithOutQcWithPlt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.PutAwayHistoryWithOutQcWithPlt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "PutInScanNoQcNoPallet",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/PutInScanNoQcNoPallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.PutInScanNoQcNoPallet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "ScanLogMobileNOQC",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/ScanLogMobileNOQC",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.ScanLogMobileNOQC",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "ScanMobBarcodeNoQcNoPallet",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/ScanMobBarcodeNoQcNoPallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.ScanMobBarcodeNoQcNoPallet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "ScanMobileBarcodeNOQC",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/ScanMobileBarcodeNOQC",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.ScanMobileBarcodeNOQC",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "ScanputinMobile",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/ScanputinMobile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.ScanputinMobile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "SKUHistoryNoQCNoPlt",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/SKUHistoryNoQCNoPlt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.SKUHistoryNoQCNoPlt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "SKUHistoryNoQCYesPlt",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/SKUHistoryNoQCYesPlt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.SKUHistoryNoQCYesPlt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "SKUHistoryWithQCNoPlt",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/SKUHistoryWithQCNoPlt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.SKUHistoryWithQCNoPlt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "UpdateQtyPutinNoQC",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/UpdateQtyPutinNoQC",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.UpdateQtyPutinNoQC",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.MobilePutInController",
+    "Method": "UpdateQtyPutinWithQC",
+    "RelativePath": "api/MobilePutIn/api/staging/v1/MobileApi/UpdateQtyPutinWithQC",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.UpdateQtyPutinWithQC",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.OutboundQCController",
+    "Method": "OutbondMobQCLottableList",
+    "RelativePath": "api/OutboundQC/api/staging/v1/OutboundQC/OutbondGetQCLottableList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.OutboundQC\u002BQCgetLottableListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.OutboundQCController",
+    "Method": "OutbondMobQCHistory",
+    "RelativePath": "api/OutboundQC/api/staging/v1/OutboundQC/QCHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.OutboundQC\u002BQCHistroyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.OutboundQCController",
+    "Method": "OutbondQCList",
+    "RelativePath": "api/OutboundQC/api/staging/v1/OutboundQC/QCList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.OutboundQC\u002BGetQCOutListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.OutboundQCController",
+    "Method": "OutbondMobQCSaveDetails",
+    "RelativePath": "api/OutboundQC/api/staging/v1/OutboundQC/QCSaveDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.OutboundQC\u002BSaveOutboundQCDetailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.OutboundQCController",
+    "Method": "OutbondMobQCSaveScanLog",
+    "RelativePath": "api/OutboundQC/api/staging/v1/OutboundQC/QCScanLog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.OutboundQC\u002BGetQCScannedProdList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.OutboundQCController",
+    "Method": "OutbondMobQCScanLog",
+    "RelativePath": "api/OutboundQC/api/staging/v1/OutboundQC/QCSKUScanLog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.OutboundQC\u002BQCgetOutbondScanLogRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.OutboundQCController",
+    "Method": "QCSOListRequest",
+    "RelativePath": "api/OutboundQC/api/staging/v1/OutboundQC/qcSOList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.OutboundQC\u002BGetQCSOListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.OutboundQCController",
+    "Method": "UpdatQCOutboundStatus",
+    "RelativePath": "api/OutboundQC/api/staging/v1/OutboundQC/QCUpdateStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Req",
+        "Type": "WMSCOREAPI.Model.V1.Request.OutboundQC\u002BUpdatQCOutboundStatus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.OutboundQCController",
+    "Method": "SkuwiseOutbondMobQCHistory",
+    "RelativePath": "api/OutboundQC/api/staging/v1/Packing/SkuwiseOutbondMobQCHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.OutboundQC\u002BSkuwiseOutbondMobQCHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.OutboundQCController",
+    "Method": "ScanBarcode",
+    "RelativePath": "api/OutboundQC/api/staging/v1/PickUp/BarcodeScan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.OutboundQC\u002BOutboundQCScanBarcodeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.BarcodeScan",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PackingController",
+    "Method": "MobUpdateQtyPacking",
+    "RelativePath": "api/Packing/api/staging/v1/Packing/MobUpdateQtyPacking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Packing\u002BMobUpdateQtyPacking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PackingController",
+    "Method": "ScanBarcode",
+    "RelativePath": "api/Packing/api/staging/v1/Packing/packingbarcodescan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Packing\u002BPackingBarcodeScanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.BarcodeScan",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PackingController",
+    "Method": "GetPackingList",
+    "RelativePath": "api/Packing/api/staging/v1/Packing/PackingList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Packing\u002BGetPackingListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PackingController",
+    "Method": "GetPackingSKUDetail",
+    "RelativePath": "api/Packing/api/staging/v1/Packing/packingskuDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Packing\u002BPackingSKUDetailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PackingController",
+    "Method": "GetPackingSKUList",
+    "RelativePath": "api/Packing/api/staging/v1/Packing/packingSKUList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Packing\u002BGetSOSKUListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PackingController",
+    "Method": "GetPackingSKULog",
+    "RelativePath": "api/Packing/api/staging/v1/Packing/packingSKULog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Packing\u002BGetSOSKULogRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PackingController",
+    "Method": "GetPackingSOList",
+    "RelativePath": "api/Packing/api/staging/v1/Packing/packingSOList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Packing\u002BGetPackingSOListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PackingController",
+    "Method": "SaveDetails",
+    "RelativePath": "api/Packing/api/staging/v1/Packing/saveDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.Packing\u002BPackingSaveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PackingController",
+    "Method": "SaveSKUDetails",
+    "RelativePath": "api/Packing/api/staging/v1/Packing/saveskuDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.Packing\u002BSaveSKUDetailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.Responce",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.PackingController",
+    "Method": "SkuwisePackingSKUList",
+    "RelativePath": "api/Packing/api/staging/v1/Packing/SkuwisePackingSKUList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Packing\u002BSkuwisePackingSKUList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.ReplishmentmobController",
+    "Method": "GetRepListDetails",
+    "RelativePath": "api/Replishmentmob/api/staging/v1/Replishment/GetRepListDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetRepListDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.ReplishmentmobController",
+    "Method": "GetRepscan",
+    "RelativePath": "api/Replishmentmob/api/staging/v1/Replishment/GetRepscan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetRepscan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.ReplishmentmobController",
+    "Method": "GetRepscanlog",
+    "RelativePath": "api/Replishmentmob/api/staging/v1/Replishment/GetRepscanlog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetRepscanlog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.ReplishmentmobController",
+    "Method": "SaveRepSku",
+    "RelativePath": "api/Replishmentmob/api/staging/v1/Replishment/SaveRepSku",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.SaveRepSku",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.ReplishmentmobController",
+    "Method": "UpdateStatusRep",
+    "RelativePath": "api/Replishmentmob/api/staging/v1/Replishment/UpdateStatusRep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.UpdateStatusRep",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.RfidTaggingController",
+    "Method": "InsertRfid",
+    "RelativePath": "api/RfidTagging/api/rfid/InsertRfid",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.RfidTagging\u002BInsertRfidRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Model.V1.Request.RfidTagging\u002BInsertRfidResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.RfidTaggingController",
+    "Method": "MultipleRfidUnassign",
+    "RelativePath": "api/RfidTagging/api/rfid/MultipleRfidUnassign",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.RfidTagging\u002BMultipleRfidUnassignRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Model.V1.Request.RfidTagging\u002BMultipleRfidUnassignResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.RfidTaggingController",
+    "Method": "UpdateRfid",
+    "RelativePath": "api/RfidTagging/api/rfid/UpdateRfid",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.RfidTagging\u002BUpdateRfidRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Model.V1.Request.RfidTagging\u002BUpdateRfidResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.RfidTaggingController",
+    "Method": "GetRfidTagging",
+    "RelativePath": "api/RfidTagging/GetRfidTagging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WMSCOREAPI.Model.V1.Request.RfidTagging\u002BGetRfidTaggingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Model.V1.Request.RfidTagging\u002BGetRfidTaggingResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.SearchController",
+    "Method": "GetSearchBarcodeScan",
+    "RelativePath": "api/Search/api/staging/v1/Search/GetSearchBarcodeScan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetSearchBarcodeScan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.SearchController",
+    "Method": "DropDownOption",
+    "RelativePath": "api/Search/api/staging/v1/Search/GetSearchDropDownValues",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetSearchDropDownValues",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.SearchController",
+    "Method": "GetSearchScanLog",
+    "RelativePath": "api/Search/api/staging/v1/Search/GetSearchScanLog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.GetSearchScanLog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TimeTrackerController",
+    "Method": "BarcodeScanLabour",
+    "RelativePath": "api/TimeTracker/api/staging/v1/TimeTracker/BarcodeScanLabour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.TimeTracker\u002BBarcodeScanLabour",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TimeTrackerController",
+    "Method": "FinalSaveLabour",
+    "RelativePath": "api/TimeTracker/api/staging/v1/TimeTracker/FinalSaveLabour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.TimeTracker\u002BFinalSaveLabour",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TimeTrackerController",
+    "Method": "LabourHistory",
+    "RelativePath": "api/TimeTracker/api/staging/v1/TimeTracker/LabourHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.TimeTracker\u002BLabourHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TimeTrackerController",
+    "Method": "SaveLabour",
+    "RelativePath": "api/TimeTracker/api/staging/v1/TimeTracker/SaveLabour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.TimeTracker\u002BSaveLabour",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TimeTrackerController",
+    "Method": "ScanLogLabour",
+    "RelativePath": "api/TimeTracker/api/staging/v1/TimeTracker/ScanLogLabour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.TimeTracker\u002BScanLogLabour",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "DockList",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/DockList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.DockList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "Get_Staging_scanAPI",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/Get_Staging_scanAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Get_Staging_scanAPI",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "Mob_ScanData",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/Mob_ScanData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.Mob_ScanData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "MobDockIdStatus",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/MobDockIdStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.MobDockIdStatus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "OrderTypeList",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/OrderTypeList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.OrderTypeList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "RecevingListMobile",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/RecevingListMobile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.RecevingListMobile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "SaveScanLogRecDT",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/SaveScanLogRecDT",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.SaveScanLogRecDT",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "ScanHistory",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/ScanHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.ScanHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "ScanLogForStaging",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/ScanLogForStaging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.ScanLogForStaging",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "StagingListMobile",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/StagingListMobile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.StagingListMobile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "TransportDetail",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/TransportDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.TransportDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMSCOREAPI.Controllers.V1.TransloadController",
+    "Method": "TransportList",
+    "RelativePath": "api/Transload/api/staging/v1/Transload/TransportList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReqPara",
+        "Type": "WMSCOREAPI.Model.V1.Request.TransportList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WMSCOREAPI.Models.V1.Responce.ResponceList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
