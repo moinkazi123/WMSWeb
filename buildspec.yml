@@ -11,13 +11,19 @@ phases:
   build:
     commands:
       - echo Building the solution...
-      - dotnet build --configuration Release
-      - dotnet publish -c Release -o ./bin/Release/net8.0/publish
+      - dotnet restore --verbosity detailed
+      - dotnet build --configuration Release --verbosity detailed
+      - dotnet publish -c Release -o ./publish --verbosity detailed
   post_build:
     commands:
       - echo Build complete
+      - echo Preparing deployment files...
+      - cp appspec.yml ./publish/
+      - mkdir -p ./publish/scripts
+      - cp scripts/*.sh ./publish/scripts/
       - echo Uploading build artifacts to S3...
-      - aws s3 cp ./bin/Release/net8.0/publish s3://wmsbucket123/ --recursive
+      - aws s3 cp ./publish s3://wmsbucket123/webapplication/ --recursive
 artifacts:
   files:
     - '**/*'
+  base-directory: 'publish'
