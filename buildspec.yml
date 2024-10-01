@@ -5,10 +5,6 @@ phases:
     commands:
       - echo Installing .NET SDK
       - sudo yum install -y dotnet-sdk-8.0
-  pre_build:
-    commands:
-      - echo Restoring dependencies...
-      - dotnet restore
   build:
     commands:
       - echo Building the solution...
