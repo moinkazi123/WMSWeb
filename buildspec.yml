@@ -1,29 +1,24 @@
 version: 0.2
-    
+
 phases:
   install:
-    runtime-versions:
-      dotnet: 8.0
-      #dotnet: latest - Latest resolve to 3.1, check this issue https://github.com/aws/aws-codebuild-docker-images/issues/414
-   
+    commands:
+      - echo Installing .NET SDK
+      - sudo yum install -y dotnet-sdk-8.0
   pre_build:
     commands:
-      - echo Restore started on `date`
-      - dotnet restore WMSCOREAPI.csproj
-      
+      - echo Restoring dependencies...
+      - dotnet restore
   build:
     commands:
-      - echo Build started on `date`
-      - dotnet build -c Release WMSCOREAPI.csproj
-      - echo Test started on `date`
-      - dotnet test WMSCOREAPI.csproj
-      
+      - echo Building the solution...
+      - dotnet build --configuration Release
+      - dotnet publish -c Release -o ./bin/Release/net8.0/publish
   post_build:
     commands:
-      - echo Publish started on `date`
-      # https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/dotnet-linux-platform-bundle-app.html
-      - dotnet publish -c Release -r linux-x64 -o ./ WMSCOREAPI.csproj
-      
+      - echo Build complete
+      - echo Uploading build artifacts to S3...
+      - aws s3 cp ./bin/Release/net8.0/publish s3://wmsbucket123/ --recursive
 artifacts:
   files:
-    - ./**/*
+    - '**/*'
